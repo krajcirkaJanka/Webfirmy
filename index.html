@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krajčírska firma</title>
+    <link rel="stylesheet" type="text/css" href="styly.css">
+    <script src="scripty.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Krajčírstvo Janka</h1>
+        <nav>
+            <ul>
+                <li><a href="prace.html">Práce</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li class="container"><button id="modeToggle">☼/☾</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Vitajte v našej Krajčírskej firme!</h2>
+            <p>Preskúmajte naše služby a projekty nižšie.</p>
+
+            <p>Vítame Vás v našej krajčírskej firme! Sme skupina vášnivých remeselníkov so silnou vázbou na tradície šitia a zároveň neustále sledujeme nové trendy a technológie, aby sme vám mohli poskytnúť kvalitné služby v dnešnom rýchlo sa meniacom svete módy.
+
+            <p>Naším cieľom je spokojnosť zákazníka a preto sa snažíme každý kus práce dotiahnuť do dokonalosti. Sme presvedčení, že každý kúsok šiat by mal byť nielen štýlový, ale aj pohodlný a odolný.</p>
+                
+            <p>S radosťou vám poskytneme poradenstvo a pomôžeme vybrať tú správnu látku a štýl podľa vašich potrieb a predstáv. Veríme, že spoločne vytvoríme dielo, ktoré vám bude slúžiť a potešiť mnoho rokov.</p>
+                
+            <p>Tešíme sa na spoluprácu s vami!</p>
+        </section>
+
+        <section id="projekty">
+            <h2>Projekty</h2>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="krajcirstvo.jpg" alt="Projekt 1" class="obr1">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="krajcirskystroj.jpg" alt="Projekt 2" class="obr1">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="sitie.jpg" alt="Projekt 3" class="obr1">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="sicistroj.jpg" alt="Projekt 4" class="obr1">
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                </div>
+            </div>
+            
+
+        <section id="contact">
+            <h2>Kontaktujte nás</h2>
+            <details>
+                <summary>Email</summary>
+                <p>Kontaktujte nás na adrese info@krajcirskafirma.com</p>
+            </details>
+            <details>
+                <summary>Tel. č.</summary>
+                <p>V prípade ďalších otázok nás možete kontaktovať na tel. č. </p>
+            </details>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Krajčírska firma</p>
+    </footer>
+</body>
+</html>

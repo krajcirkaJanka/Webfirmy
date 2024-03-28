@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakty</title>
+    <link rel="stylesheet" type="text/css" href="styly.css">
+    <script src="scripty.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Krajčírska firma</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Domov</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li class="container"><button id="modeToggle">☼/☾</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Cenník</h2>
+    <table border="3">
+        <thead>
+            <tr>
+                <th>Typ Oblečenia</th>
+                <th>Oprava</th>
+                <th>Šitie nového</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nohavice</td>
+                <td>7€</td>
+                <td>25€</td>
+            </tr>
+            <tr>
+                <td>Monterky</td>
+                <td>15€</td>
+                <td>45€</td>
+            </tr>
+            <tr>
+                <td>Košela</td>
+                <td>7€</td>
+                <td>15€</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+        <h2>Formulár</h2>
+            <form action="https://formspree.io/f/myyrdnvd" method="POST">
+            <label for="name">Meno:</label><br>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="phone">Tel. č.:</label><br>
+            <input type="tel" id="phone" name="phone" required><br>
+        
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+        
+            <label for="message">Čo požadujete:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+        
+            <input type="submit" value="Poslať">
+    </form>
+
+    </main>
+
+</body>
+</html>

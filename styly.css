@@ -9,11 +9,6 @@
     align-items: center; /* Align items vertically at the center */
 }
 
-.logo-container img {
-    max-width: 325px; /* Ensure the image does not exceed its container width */
-    max-height: 204px; /* Example maximum height for the logo */
-}
-
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;

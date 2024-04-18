@@ -10,8 +10,8 @@
 }
 
 .logo-container img {
-    max-width: 100%; /* Ensure the image does not exceed its container width */
-    max-height: 100px; /* Example maximum height for the logo */
+    max-width: 325px; /* Ensure the image does not exceed its container width */
+    max-height: 204px; /* Example maximum height for the logo */
 }
 
 body {

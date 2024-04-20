@@ -5,10 +5,17 @@ document.addEventListener('DOMContentLoaded', function () {
     const modeToggle = document.getElementById('modeToggle');
     const body = document.body;
     const header = document.querySelector('header');
+    const navLinks = document.querySelectorAll('header nav a');
+    const footer = document.querySelector('footer');
 
     modeToggle.addEventListener('click', function () {
         body.classList.toggle('dark-mode');
         header.classList.toggle('dark-mode');
+        footer.classList.toggle('dark-mode');
+
+        navLinks.forEach(link => {
+            link.classList.toggle('bold-text');
+        });
     });
 });
 

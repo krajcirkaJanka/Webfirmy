@@ -1,12 +1,18 @@
 .obr1 {
     width: 800px;
-    height: 600px;
+    height: 900px;
 }
 
-.logo-container {
-    display: flex;
-    justify-content: center; /* Align items horizontally at the center */
-    align-items: center; /* Align items vertically at the center */
+.obr2 {
+    width: 434px;
+    height: 613px;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 325px;
+    height: 204px;
 }
 
 body {
@@ -18,7 +24,7 @@ body {
 }
 
 header {
-    background-color: white; /* Updated to white background */
+    background-color: rgb(0, 238, 255); /* Updated to white background */
     color: black; /* Updated to black text color */
     text-align: center;
     padding: 1em 0;
@@ -33,7 +39,8 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 20px;
-    color: black; /* Updated to black text color */
+    color: white; /* Updated to black text color */
+    font-weight: bold;
 }
 
 a {
@@ -161,4 +168,12 @@ img {
 
 .comment {
     margin-bottom: 10px;
+}
+
+.dark-mode nav ul li a {
+    color: white; /* Change text color to white in dark mode */
+}
+
+.dark-mode nav ul li {
+    color: white; /* Change text color to white in dark mode */
 }

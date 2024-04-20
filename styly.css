@@ -1,6 +1,8 @@
 .obr1 {
     width: 800px;
     height: 900px;
+    display: block;
+    margin: 0 auto;
 }
 
 .obr2 {
